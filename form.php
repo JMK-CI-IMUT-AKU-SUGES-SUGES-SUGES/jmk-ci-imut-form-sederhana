@@ -48,16 +48,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     <div class="container custom-container">
         <form method="POST" action="form.php">
             <div class="mb-3">
-                <input type="text" class="form-control" name="first_name" required>
+                <input type="text" class="form-control" name="first_name" placeholder="Firstname" required>
             </div>
             <div class="mb-3">
-                <input type="text" class="form-control" name="last_name" required>
+                <input type="text" class="form-control" name="last_name" placeholder="Lastname" required>
             </div>
             <div class="mb-3">
-                <input type="text" class="form-control" name="phone" required>
+                <input type="text" class="form-control" name="phone" placeholder="Phone Number" required>
             </div>
             <div class="mb-3">
-                <textarea class="form-control" name="address" rows="4" required></textarea>
+                <textarea class="form-control" name="address" placeholder="Address" rows="4" required></textarea>
             </div>
             <div class="text-center">
                 <button type="submit" name="submit" class="btn btn-primary btn-submit rounded-pill px-4">Submit</button>
